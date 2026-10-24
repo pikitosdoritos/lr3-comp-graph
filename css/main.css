@@ -1,0 +1,123 @@
+/* Мої стилі для сайту "Зерно" */
+body {
+  background-color: #faf7f2;
+  font-family: Arial, sans-serif;
+}
+
+.main-menu {
+  background-color: #4e342e;
+}
+
+.logo-img {
+  vertical-align: middle;
+}
+
+.header-info {
+  border-bottom: 2px solid #d7ccc8;
+}
+
+.shop-name {
+  color: #4e342e;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.shop-slogan {
+  color: #8d6e63;
+}
+
+.info-title {
+  color: #4e342e;
+  font-size: 16px;
+}
+
+.info-text {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.page-title {
+  color: #4e342e;
+}
+
+.btn-brown {
+  background-color: #6d4c41;
+  color: #fff;
+}
+
+.btn-brown:hover {
+  background-color: #4e342e;
+  color: #fff;
+}
+
+.category-card,
+.product-card {
+  transition: box-shadow 0.2s;
+}
+
+.category-card:hover,
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-title {
+  font-size: 15px;
+}
+
+.product-text {
+  font-size: 14px;
+  color: #6d4c41;
+}
+
+.product-price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4e342e;
+}
+
+.no-reviews {
+  font-style: italic;
+  color: #777;
+}
+
+.site-footer {
+  background-color: #3e2723;
+  color: #efebe9;
+  margin-top: 30px;
+}
+
+.footer-title {
+  color: #fff;
+}
+
+.footer-menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-link {
+  color: #d7ccc8;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid #5d4037;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.product-photo {
+  width: 100%;
+  max-height: 450px;
+  object-fit: contain;
+  background-color: #eee;
+}
+
+.contact-photo {
+  max-width: 180px;
+}

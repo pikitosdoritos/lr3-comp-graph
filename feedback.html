@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Форма зворотного зв'язку">
+  <meta name="author" content="Фастовець Нікіта">
+  <meta name="generator" content="Sublime Text">
+
+  <title>Зворотній зв'язок | Зерно</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="img/logo.svg">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md navbar-dark main-menu">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img class="logo-img" src="img/logo.svg" alt="logo" width="32" height="32"> Зерно</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Меню">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Каталог</a></li>
+            <li class="nav-item"><a class="nav-link" href="payments.html">Доставка та Оплата</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="feedback.html">Зворотній зв'язок</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacts.html">Контакти</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container header-info">
+      <div class="row align-items-center py-3">
+        <div class="col-12 col-md-6 col-lg-6 header-col">
+          <h1 class="shop-name">Зерно</h1>
+          <h6 class="shop-slogan">магазин кави та чаю</h6>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3 header-col">
+          <h5 class="info-title">Телефони</h5>
+          <p class="info-text">+38 (067) 000-11-22<br>+38 (093) 000-33-44</p>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3 header-col">
+          <h5 class="info-title">Адреса</h5>
+          <p class="info-text">м. Київ, вул. Кавова, 7<br>пн–нд 9:00–20:00</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container main-container py-4">
+      <h2 class="page-title mb-4">Зворотній зв'язок</h2>
+      <div class="card form-card">
+        <div class="card-body">
+          <form class="feedback-form" id="feedbackForm">
+            <div class="mb-3">
+              <label class="form-label" for="name">Ім'я</label>
+              <input class="form-control" type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="district">Район міста</label>
+              <select class="form-select" id="district" name="district">
+                <option value="" selected>Оберіть район</option>
+                <option value="1">Голосіївський</option>
+                <option value="2">Дарницький</option>
+                <option value="3">Деснянський</option>
+                <option value="4">Дніпровський</option>
+                <option value="5">Оболонський</option>
+                <option value="6">Печерський</option>
+                <option value="7">Подільський</option>
+                <option value="8">Святошинський</option>
+                <option value="9">Солом'янський</option>
+                <option value="10">Шевченківський</option>
+              </select>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 mb-3">
+                <label class="form-label" for="phone">Телефон</label>
+                <input class="form-control" type="tel" id="phone" name="phone" placeholder="+38 (0__) ___-__-__">
+              </div>
+              <div class="col-12 col-md-6 mb-3">
+                <label class="form-label" for="email">E-mail</label>
+                <input class="form-control" type="email" id="email" name="email" placeholder="name@mail.com">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="photo">Фото</label>
+              <input class="form-control" type="file" id="photo" name="photo" accept="image/*">
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="comment">Коментар</label>
+              <textarea class="form-control" id="comment" name="comment" rows="4"></textarea>
+            </div>
+            <button class="btn btn-brown form-btn" type="submit">Надіслати</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-12 col-md-6 col-lg-3 footer-col">
+          <h4 class="footer-title">Зерно</h4>
+          <p class="footer-text">магазин кави та чаю</p>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3 footer-col">
+          <h6 class="footer-title">Телефони</h6>
+          <p class="footer-text">+38 (067) 000-11-22<br>+38 (093) 000-33-44</p>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3 footer-col">
+          <h6 class="footer-title">Адреса</h6>
+          <p class="footer-text">м. Київ, вул. Кавова, 7</p>
+        </div>
+        <div class="col-12 col-lg-3 footer-col">
+          <h6 class="footer-title">Меню</h6>
+          <ul class="footer-menu"><li class="footer-menu-item"><a class="footer-link" href="index.html">Каталог</a></li><li class="footer-menu-item"><a class="footer-link" href="payments.html">Доставка та Оплата</a></li><li class="footer-menu-item"><a class="footer-link" href="feedback.html">Зворотній зв'язок</a></li><li class="footer-menu-item"><a class="footer-link" href="contacts.html">Контакти</a></li></ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; Фастовець, 2026</p>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+    document.getElementById('feedbackForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('Дякуємо! Ми зв\'яжемося з вами найближчим часом.');
+      this.reset();
+    });
+  </script>
+</body>
+
+</html>
